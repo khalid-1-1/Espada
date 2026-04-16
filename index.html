@@ -1,1 +1,86 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>Espada</title>
 
+<style>
+body {
+    font-family: Arial;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 30px;
+    letter-spacing: 2px;
+    text-shadow: 0 0 10px rgba(255,255,255,0.5);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.card {
+    background: white;
+    color: black;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.rank {
+    font-size: 22px;
+    font-weight: bold;
+    color: #2a5298;
+}
+
+.name {
+    margin-top: 10px;
+    font-size: 18px;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>⚔️ Espada - الرتب العليا</h1>
+
+<div class="container">
+
+    <div class="card">
+        <div class="rank">👑 الرئيس</div>
+        <div class="name">كيلوا</div>
+    </div>
+
+    <div class="card">
+        <div class="rank">⭐ نائب الرئيس</div>
+        <div class="name">---</div>
+    </div>
+
+    <div class="card">
+        <div class="rank">🔥 المشرف العام</div>
+        <div class="name">شانكس</div>
+    </div>
+
+    <div class="card">
+        <div class="rank">💎 عضو مميز</div>
+        <div class="name">استا</div>
+    </div>
+
+</div>
+
+</body>
+</html>
